@@ -160,3 +160,13 @@ You may call this method to send a message object constructed via the [Bot.Messa
 ### [Bot.get_ticket()](bot.py#L79-L101)
 
 Call this method if you'd like to fetch a chat ticket for your current session to hit JSON API endpoints from F-list yourself with the requests library, as per https://wiki.f-list.net/Json_endpoints#Acquiring_a_ticket.
+
+# FAQ
+
+### What if I write bad code in one of my modules? What if my module crashes the bot?!
+
+Your bot will not shut off. Instead, the bot will shut down your module, write to an error log in the base directory to tell you about it, and not boot up your module again until you restart the bot.
+
+### What if I want to tell the bot to kill my module and drop it out of memory?
+
+Write `exit()` in your module somewhere within your handler() function. This will cause the thread for your module to die, and the dispatcher for the bot will handle it appropriately.
