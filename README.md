@@ -6,7 +6,7 @@ https://wiki.f-list.net/F-Chat_Protocol
 
 And use this as reference as you wish for chat protocol and bot rules:
 
-https://wiki.f-list.net/F-Chat_Protocol#Bots
+https://wiki.f-list.net/F-Chat_Protocol#Bots (IMPORTANT, BOT POLICIES OF F-LIST YOU MUST FOLLOW)
 
 https://wiki.f-list.net/F-Chat_Client_Commands
 
@@ -162,6 +162,15 @@ You may call this method to send a message object constructed via the [Bot.Messa
 Call this method if you'd like to fetch a chat ticket for your current session to hit JSON API endpoints from F-list yourself with the requests library, as per https://wiki.f-list.net/Json_endpoints#Acquiring_a_ticket.
 
 # FAQ
+
+### Does this bot adhere to bot policies of F-list?
+
+
+By default? Yes! You must adhere to https://wiki.f-list.net/F-Chat_Protocol#Bots yourself with new modules you implement within the bot, though.
+
+The bot is rate limited to 1 message per second, and has exponential backoff for attempted reconnects. This means the bot will wait longer and longer before trying to reconnect to chat. If it gets to be over 30 seconds, the bot's receiver thread will crash and stop trying to reconnect to chat. The bot will crash upon receiving error codes from the server, and follows advice set forth in https://toys.in.newtsin.space/api-docs/#server-closes-connection-after-issuing-an-err-protocol-command for error code handling from the server.
+
+The bot does not, by default, connect to any channels.
 
 ### What if I write bad code in one of my modules? What if my module crashes the bot?!
 
