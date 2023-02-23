@@ -170,7 +170,7 @@ def proper_command(msg, cmd):
 ######################################################################################### UTILITIES #########################################################################################
         
 def recv_thread(connection, chat_q, socket_q):
-    for event in persist(connection):
+    for event in persist(connection, max_wait=30):
         if event.name == 'text':
             chat_q.put(event)
         else:
