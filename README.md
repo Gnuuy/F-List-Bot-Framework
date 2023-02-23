@@ -14,6 +14,14 @@ https://wiki.f-list.net/F-Chat_Server_Commands
 
 https://toys.in.newtsin.space/api-docs/ These are some AWESOME docs on F-list API in general!
 
+### Assumptions before going into this
+* You know how to develop code in python.
+* You've read and understood a bit about F-list API, and their protocol as described up above.
+* You understand that the bot framework acts as an event-based queue, where it has one input stream, and one output stream.
+* Your modules you write define what they want as input, and can use the `Bot.send_out()` command to send output to chat, where any other underlying logic is written by you.
+* You generally only have to write modules in the [/Modules](/Modules) folder, as described below.
+* You let the bot handle the rest, for the most part. Don't edit [bot.py](bot.py) unless you know what you're doing.
+
 ## Installation
 * Download this repo.
 * Ensure you have python 3+
