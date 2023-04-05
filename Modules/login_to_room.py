@@ -11,7 +11,7 @@ def handler(msg_pipe):
     msg = msg_pipe.get()
     
     Bot.send_out(Bot.Message(code="JCH", json={"channel": room_code}))
-    Bot.send_out(Bot.Message(code="STA", json={"character": "OAABot", "status":"online", "statusmsg":login_status}))
+    Bot.send_out(Bot.Message(code="STA", json={"character": Bot.botname, "status":"online", "statusmsg":login_status}))
     
     
 def predicate(msg):
