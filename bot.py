@@ -47,28 +47,28 @@ os.chdir(dname)
 if os.name != 'posix':
     
 
-    import win32console as con
+    #import win32console as con
 
     # Set working dir to script dir
-    abspath = os.path.abspath(__file__)
-    dname = os.path.dirname(abspath)
-    os.chdir(dname)
+    #abspath = os.path.abspath(__file__)
+    #dname = os.path.dirname(abspath)
+    #os.chdir(dname)
 
     ENABLE_EXTENDED_FLAGS = 0x0080
     ENABLE_QUICK_EDIT_MODE = 0x0040 
 
-    h = con.GetStdHandle(con.STD_INPUT_HANDLE)
-    oldMode = h.GetConsoleMode()
+    #h = con.GetStdHandle(con.STD_INPUT_HANDLE)
+    #oldMode = h.GetConsoleMode()
     
     # Restore old console mode on CTRL-C 
-    def handler(signum, frame):
-        h.SetConsoleMode(oldMode)
-        exit()
+    #def handler(signum, frame):
+    #h.SetConsoleMode(oldMode)
+    #exit()
 
-    signal.signal(signal.SIGINT, handler)
+    #signal.signal(signal.SIGINT, handler)
 
     # Modify console mode to disable quick edit mode
-    h.SetConsoleMode((oldMode | ENABLE_EXTENDED_FLAGS) & ~ENABLE_QUICK_EDIT_MODE)
+    #h.SetConsoleMode((oldMode | ENABLE_EXTENDED_FLAGS) & ~ENABLE_QUICK_EDIT_MODE)
     
 ########################################################################################
 
