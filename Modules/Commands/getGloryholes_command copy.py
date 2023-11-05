@@ -1,7 +1,7 @@
 from BotState import Bot
 
 HasHelpInfo = True
-command_name = "!gloryholes"
+command_name = "!gh"
 command_description = "Get a list of all available gloryholes."
 
 def handler(msg_pipe):
@@ -21,5 +21,6 @@ def handler(msg_pipe):
 
     Bot.send_out(Bot.Message(code=msg.code, json=json))
 
+
 def predicate(msg):
-    return (msg.code == "MSG" or msg.code == "PRI") and Bot.proper_command(msg.json["message"], "!gloryholes")
+    return (msg.code == "MSG" or msg.code == "PRI") and Bot.proper_command(msg.json["message"], "!gloryholes") 
