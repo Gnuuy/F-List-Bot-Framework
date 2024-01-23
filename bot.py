@@ -4,6 +4,7 @@ import requests
 from lomond import WebSocket
 from lomond.persist import persist
 from multiprocessing import Lock
+from BotSingleton import BotSingleton
 import json as jsonlib
 import time
 import multiprocessing as mp
@@ -27,10 +28,10 @@ chat_url = 'wss://chat.f-list.net/chat2'
 botname = creds['bot_name']
 cname = creds["bot_user_agent_name"]
 cversion = creds["bot_version"]
+room = creds["room_code"]
 
 
-
-if creds['username'] == "" or creds['password'] == "" or creds['bot_name'] == "" or creds['bot_user_agent_name'] == "" or creds['bot_version'] == "" :
+if creds['username'] == "" or creds['password'] == "" or creds['bot_name'] == "" or creds['bot_user_agent_name'] == "" or creds['bot_version'] == "" or creds['room_code'] == "":
     print("You have not specified all the required info in bot_credentials.txt")
     exit()
 
@@ -150,7 +151,23 @@ class Message():
         
     def __str__(self):
         return f"{self.code} {jsonlib.dumps(self.json)}"
-        
+
+class Bookmark():
+    def _init_(self, name):
+        try:
+            self.account = username
+
+            request_body = {'account': username, 'ticket': ticket, 'name': name}
+            response = requests.post('https://www.f-list.net/json/getApiTicket.php', data=request_body)
+
+        except Exception as e:
+            print("Failed to create bookmark object.")
+            print("Error:")
+            print(raw)
+            print("Stacktrace:")
+            print(traceback.print_exc())
+            exit()
+
 def send_out(msg): # Should only be called by bot
     global out_q
     out_q.put(msg)    
@@ -182,7 +199,7 @@ def recv_thread(connection, chat_q, socket_q):
 def input_server(input_q):
     # get the hostname
     host = socket.gethostname()
-    port = 5000  # initiate port no above 1024
+    port = 5001  # initiate port no above 1024
 
     server_socket = socket.socket()  # get instance
     # look closely. The bind() function takes tuple as argument
@@ -293,6 +310,7 @@ class Dispatcher():
         self.threadpool = []
         self.lasttick = 0
         self.started = False
+        self.deadmodules = []
         
     def register_module(self, module, interestFunc, moduleTimeout=0, inputsForModule=(), isPublicFacingCommand=False, cmdname="", cmd_desc=""):
         inp_q = mp.Queue()
@@ -321,6 +339,7 @@ class Dispatcher():
                 print("\n\n\n\n\nHEY I am removing: %s" % str(module))
                 module.deathflag.set()
                 self.threadpool.remove(module)
+                self.deadmodules.append(module)
                 print("Currently loaded modules:")
                 print(self.threadpool)
                 continue
@@ -468,7 +487,24 @@ def main():
             msg = chat_recv_q.get()
             msg = Message(raw=msg.text)
             dispatcher.send(msg)
-            
+
+class Gloryhole:
+    def __init__(self, id: int, description: str):
+        self.id = id
+        self.name = "Booth #%d" % id
+        self.occupants = []
+        self.participants = []
+        self.maxParticipants = 1
+        
+        self.description = description
+        self.graffiti = []
+
+boxCount = 12
+booths = []
+for i in range(1, boxCount + 1):
+    booths.append(Gloryhole(i, ""))
+
+
 # entry point
 if __name__ == '__main__':
     global ticket
@@ -480,6 +516,12 @@ if __name__ == '__main__':
     tickettime = time.time()
     ticketlock = Lock()
     
+    # Initialize BotSingleton with room code
+    bot_instance = BotSingleton()
+    bot_instance.room = creds["room_code"]
+
+    bot_instance.currentTime = datetime.datetime.now()
+
     ticket = getTicket()
     
     main()

@@ -1,0 +1,1449 @@
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: startup_clear_state
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/startup_clear_state.py", line 22, in handler
+    raise Exception("Dying now!")
+Exception: Dying now!
+
+
+
+This module (startup_clear_state) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: proxy_message_manager
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/proxy_message_manager.py", line 35, in handler
+    code = udata["runtime"]["participants"][msg.json["character"]]
+KeyError: 'SoftieDevil'
+
+
+
+This module (proxy_message_manager) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: startup_clear_state
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/startup_clear_state.py", line 22, in handler
+    raise Exception("Dying now!")
+Exception: Dying now!
+
+
+
+This module (startup_clear_state) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: proxy_message_manager
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/proxy_message_manager.py", line 42, in handler
+    code = udata["runtime"]["participants"][msg.json["character"]]
+KeyError: 'Moo'
+
+
+
+This module (proxy_message_manager) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: startup_clear_state
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/startup_clear_state.py", line 22, in handler
+    raise Exception("Dying now!")
+Exception: Dying now!
+
+
+
+This module (startup_clear_state) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: user_management
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/user_management.py", line 159, in handler
+    json_to_send_room = {"message": "It would seem you're already participating with a gloryhole!\nWhile we'd love to be inclusive of people who have more than one appendage to put in any two gloryholes at the same time, we simply don't have the technology to support this quite yet. Thanks, but this request will be denied. :)" % code_request, "channel": room}
+TypeError: not all arguments converted during string formatting
+
+
+
+This module (user_management) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: print_to_console
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/print_to_console.py", line 6, in handler
+    msg = msg_pipe.get()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 97, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (print_to_console) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: login_to_oaa
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/login_to_oaa.py", line 11, in handler
+    msg = msg_pipe.get()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 97, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (login_to_oaa) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: help_oaa
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/user-facing/help_oaa.py", line 8, in handler
+    msg = msg_pipe.get()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 97, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (help_oaa) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: chat_write_to_logfile
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/chat_write_to_logfile.py", line 8, in handler
+    msg = msg_pipe.get()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 97, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (chat_write_to_logfile) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: pin_responder
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/pin_responder.py", line 6, in handler
+    msg_pipe.get()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 97, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (pin_responder) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: proxy_message_manager
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/proxy_message_manager.py", line 14, in handler
+    msg = msg_pipe.get()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 97, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (proxy_message_manager) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: startup_clear_state
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/startup_clear_state.py", line 22, in handler
+    raise Exception("Dying now!")
+Exception: Dying now!
+
+
+
+This module (startup_clear_state) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: __main__
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 332, in send
+    should_send = module.interestFunc(msg)
+  File "/home/moo/bot/Modules/gloryhole/proxy_message_manager.py", line 59, in predicate
+    udata = json.loads(udata_string)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 12 column 2 (char 254)
+
+
+
+This module (__main__) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: startup_clear_state
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/startup_clear_state.py", line 22, in handler
+    raise Exception("Dying now!")
+Exception: Dying now!
+
+
+
+This module (startup_clear_state) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: user_management
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/user_management.py", line 73, in handler
+    del udata["runtime"]["participants"][msg.json["character"]]
+KeyError: 'SoftieDevil'
+
+
+
+This module (user_management) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: startup_clear_state
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/startup_clear_state.py", line 22, in handler
+    raise Exception("Dying now!")
+Exception: Dying now!
+
+
+
+This module (startup_clear_state) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: proxy_message_manager
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/proxy_message_manager.py", line 30, in handler
+    code = udata["runtime"]["secret_user_map"][msg.json["character"]]
+KeyError: 'SoftieDevil'
+
+
+
+This module (proxy_message_manager) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: startup_clear_state
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/startup_clear_state.py", line 22, in handler
+    raise Exception("Dying now!")
+Exception: Dying now!
+
+
+
+This module (startup_clear_state) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: proxy_message_manager
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/proxy_message_manager.py", line 30, in handler
+    code = udata["runtime"]["secret_user_map"][msg.json["character"]]
+KeyError: 'S e n k o'
+
+
+
+This module (proxy_message_manager) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: startup_clear_state
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/startup_clear_state.py", line 22, in handler
+    raise Exception("Dying now!")
+Exception: Dying now!
+
+
+
+This module (startup_clear_state) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: pin_responder
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/pin_responder.py", line 6, in handler
+    msg_pipe.get()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 97, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (pin_responder) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: chat_write_to_logfile
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/chat_write_to_logfile.py", line 8, in handler
+    msg = msg_pipe.get()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 97, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (chat_write_to_logfile) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: print_to_console
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/print_to_console.py", line 6, in handler
+    msg = msg_pipe.get()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 97, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (print_to_console) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: user_management
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/user_management.py", line 15, in handler
+    msg = msg_pipe.get()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 97, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (user_management) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: login_to_oaa
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/login_to_oaa.py", line 11, in handler
+    msg = msg_pipe.get()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 97, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (login_to_oaa) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: simple_echo_command
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/simple_echo_command.py", line 8, in handler
+    msg = msg_pipe.get_nowait()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 129, in get_nowait
+    return self.get(False)
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 111, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (simple_echo_command) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: proxy_message_manager
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/proxy_message_manager.py", line 14, in handler
+    msg = msg_pipe.get()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 97, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (proxy_message_manager) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: help_oaa
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/user-facing/help_oaa.py", line 8, in handler
+    msg = msg_pipe.get()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 97, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (help_oaa) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: startup_clear_state
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/startup_clear_state.py", line 22, in handler
+    raise Exception("Dying now!")
+Exception: Dying now!
+
+
+
+This module (startup_clear_state) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: __main__
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 332, in send
+    should_send = module.interestFunc(msg)
+  File "/home/moo/bot/Modules/gloryhole/proxy_message_manager.py", line 61, in predicate
+    udata = json.loads(udata_string)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 8 column 5 (char 135)
+
+
+
+This module (__main__) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: help_oaa
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/user-facing/help_oaa.py", line 8, in handler
+    msg = msg_pipe.get()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 97, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (help_oaa) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: startup_clear_state
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/startup_clear_state.py", line 22, in handler
+    raise Exception("Dying now!")
+Exception: Dying now!
+
+
+
+This module (startup_clear_state) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: proxy_message_manager
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/proxy_message_manager.py", line 24, in handler
+    if "participants" not in udata["runtime"].keys():
+KeyError: 'runtime'
+
+
+
+This module (proxy_message_manager) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: startup_clear_state
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/startup_clear_state.py", line 22, in handler
+    raise Exception("Dying now!")
+Exception: Dying now!
+
+
+
+This module (startup_clear_state) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: startup_clear_state
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/startup_clear_state.py", line 22, in handler
+    raise Exception("Dying now!")
+Exception: Dying now!
+
+
+
+This module (startup_clear_state) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: proxy_message_manager
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/proxy_message_manager.py", line 14, in handler
+    msg = msg_pipe.get()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 97, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (proxy_message_manager) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: startup_clear_state
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/startup_clear_state.py", line 22, in handler
+    raise Exception("Dying now!")
+Exception: Dying now!
+
+
+
+This module (startup_clear_state) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: proxy_message_manager
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/proxy_message_manager.py", line 14, in handler
+    msg = msg_pipe.get()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 97, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (proxy_message_manager) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: print_to_console
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/print_to_console.py", line 6, in handler
+    msg = msg_pipe.get()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 97, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (print_to_console) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: user_management
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/user_management.py", line 15, in handler
+    msg = msg_pipe.get()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 97, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (user_management) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: login_to_oaa
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/login_to_oaa.py", line 11, in handler
+    msg = msg_pipe.get()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 97, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (login_to_oaa) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: chat_write_to_logfile
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/chat_write_to_logfile.py", line 8, in handler
+    msg = msg_pipe.get()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 97, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (chat_write_to_logfile) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: pin_responder
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/pin_responder.py", line 6, in handler
+    msg_pipe.get()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 97, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (pin_responder) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: startup_clear_state
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/startup_clear_state.py", line 22, in handler
+    raise Exception("Dying now!")
+Exception: Dying now!
+
+
+
+This module (startup_clear_state) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: proxy_message_manager
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/proxy_message_manager.py", line 46, in handler
+    json_to_send_room = {"message": "/me [b][color=cyan][Gloryhole][/color][color=green][Participants: %s][/color][/b]: %s" % (code, their_message, ", ".join(users)), "channel": room}
+TypeError: not all arguments converted during string formatting
+
+
+
+This module (proxy_message_manager) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: startup_clear_state
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/startup_clear_state.py", line 22, in handler
+    raise Exception("Dying now!")
+Exception: Dying now!
+
+
+
+This module (startup_clear_state) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: startup_clear_state
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 245, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/startup_clear_state.py", line 22, in handler
+    raise Exception("Dying now!")
+Exception: Dying now!
+
+
+
+This module (startup_clear_state) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: chat_write_to_logfile
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 262, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/chat_write_to_logfile.py", line 15, in handler
+    open("logs/%s.log" % filename, "a", encoding="utf-8").write("[%s] %s: %s\n" % (str(datetime.datetime.now()), msg.json["character"], msg.json["message"]))
+PermissionError: [Errno 13] Permission denied: 'logs/Gloryhole Mystery.log'
+
+
+
+This module (chat_write_to_logfile) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: get_gloryholes
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 262, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/get_gloryholes.py", line 8, in handler
+    msg = msg_pipe.get()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 97, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (get_gloryholes) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: disconnector
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 262, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/disconnector.py", line 105, in handler
+    msg = msg_pipe.get()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 97, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (disconnector) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: gloryhole_to_booth_messenger
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 262, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/gloryhole_to_booth_messenger.py", line 6, in handler
+    msg = msg_pipe.get()
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 97, in get
+    res = self._recv_bytes()
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
+
+
+This module (gloryhole_to_booth_messenger) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: chat_write_to_logfile
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 262, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/chat_write_to_logfile.py", line 15, in handler
+    open("logs/%s.log" % filename, "a", encoding="utf-8").write("[%s] %s: %s\n" % (str(datetime.datetime.now()), msg.json["character"], msg.json["message"]))
+PermissionError: [Errno 13] Permission denied: 'logs/Ophylia.log'
+
+
+
+This module (chat_write_to_logfile) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: give_token_oaa
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 262, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/give_token_oaa.py", line 54, in handler
+    raise Exception("I tried to fetch board state and it seemed bad. Help, papa!")
+Exception: I tried to fetch board state and it seemed bad. Help, papa!
+
+
+
+This module (give_token_oaa) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: enter_booth
+ ERROR:
+Traceback (most recent call last):
+  File "bot.py", line 262, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/enter_booth.py", line 49, in handler
+    Bot.send_out(Bot.Message(code="PRI", json={"message": "Invalid booth number.", "recipient": character}))
+UnboundLocalError: local variable 'character' referenced before assignment
+
+
+
+This module (enter_booth) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+
+I have encountered some sort of error in module: enter_booth
+ ERROR:
+Traceback (most recent call last):
+  File "/home/moo/bot/Modules/gloryhole/enter_booth.py", line 22, in handler
+    booth_number = int(parts[1]) - 1  # Convert to zero-based index
+ValueError: invalid literal for int() with base 10: '#1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "bot.py", line 262, in modwrapper
+    fn(inp_q, *inputs_for_module)
+  File "/home/moo/bot/Modules/gloryhole/enter_booth.py", line 51, in handler
+    Bot.send_out(Bot.Message(code="PRI", json={"message": "Invalid command format.", "recipient": character}))
+UnboundLocalError: local variable 'character' referenced before assignment
+
+
+
+This module (enter_booth) will exit and not restart again until the bot is restarted for safety.
+
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############
+############### MODULE ERROR ###############

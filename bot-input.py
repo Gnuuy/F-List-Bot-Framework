@@ -19,7 +19,7 @@ def close_sock(signum, frame):
 # The bot has a socket listening on a local host port for local connections.
 def client_program():
     host = socket.gethostname()  # as both code is running on same pc
-    port = 5000  # socket server port number
+    port = 5001  # socket server port number
 
     global client_socket
     client_socket = socket.socket()  # instantiate

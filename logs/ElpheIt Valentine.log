@@ -1,0 +1,19 @@
+[2023-12-22 20:28:21.737939] ElpheIt Valentine: !remove 4
+[2023-12-23 06:51:53.909782] ElpheIt Valentine: !get_booths
+[2023-12-23 06:52:00.078500] ElpheIt Valentine: !enter_booth 11
+[2023-12-23 06:52:07.320132] ElpheIt Valentine: !set_description Gnuuy doing testing. DO NOT USE.
+[2023-12-23 06:52:25.043431] ElpheIt Valentine: !set_customers 3
+[2023-12-23 06:53:44.903688] ElpheIt Valentine: /me shouts; Moo you absolute hecker! It says [i]DO NOT USE[/i]
+[2023-12-23 07:04:37.652884] ElpheIt Valentine: !leave_booth
+[2023-12-23 10:51:35.921804] ElpheIt Valentine: !leaderboard
+[2023-12-30 13:10:07.426249] ElpheIt Valentine: !kick
+[2023-12-30 13:10:29.764077] ElpheIt Valentine: !enter_booth 2
+[2023-12-30 13:11:07.029535] ElpheIt Valentine: !leave_booth
+[2024-01-13 20:56:13.971853] ElpheIt Valentine: !get_booths
+[2024-01-13 20:56:21.352108] ElpheIt Valentine: !enter_booth 8
+[2024-01-13 20:56:31.565175] ElpheIt Valentine: !help
+[2024-01-13 20:57:44.979838] ElpheIt Valentine: !enter_booth 5
+[2024-01-13 20:57:51.997202] ElpheIt Valentine: !set_description Gnuuy doing tests
+[2024-01-13 20:59:11.848118] ElpheIt Valentine: !leave_booth
+[2024-01-15 01:21:05.943719] ElpheIt Valentine: !help
+[2024-01-15 01:21:31.609852] ElpheIt Valentine: !remove_scribble 1 1
